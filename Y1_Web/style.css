@@ -1,0 +1,111 @@
+ * 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header 
+{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+header h1 
+{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul 
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li 
+{
+    margin: 0 15px;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main 
+{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.book 
+{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.book img 
+{
+    max-width: 100%;
+}
+
+.book h2 
+{
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.book p 
+{
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Interesting button here */
+.book button 
+{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book button:hover 
+{
+    background-color: #0056b3;
+}
+
+#clearfix::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer 
+{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+
+}
